@@ -7,5 +7,8 @@
 - CRUD게시판 만들기
 - MVC, JPA, REST API 이해하기
 
+# 학습 종료 후
+- 나만의 프로젝트 제작
+
 # Reference
 - 스프링부트3 자바 백엔드 개발 입문(Book)
