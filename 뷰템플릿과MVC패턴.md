@@ -18,3 +18,17 @@
 4. 뷰 페이지에 변수 삽입하기 {{username}}
 5. 컨트롤러에 모델 추가하기 niceToMeetYou(Model model)
 6. 모델에서 변수 등록하기 model,addAttribute("username","홍팍");
+
+# /hi 페이지의 실행 흐름
+```Java
+@Controller //1. 컨트롤러 선언
+publlic class FirstController {
+  @GetMapping("/hi") //2. URL 요청 접수
+
+
+  public String niceToMeetYou(Model model) { // 3.메서드 수행, 4. 모델 객체 수행
+    model.addAttribute("username", "hongpark"); //5. 모델 변수 등록
+    return "greetings"; //뷰 템플릿 페이지 반환
+  }
+}
+```
