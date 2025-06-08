@@ -9,3 +9,4 @@
 
 ## HTTP(HyperText Transfer Protocol)
 - 데이터를 주고받기 위한 통신 규약
+- 대표 메서드(POST,GET,PATCH(or PUT) : 데이터 수정 요청,DELETE)
